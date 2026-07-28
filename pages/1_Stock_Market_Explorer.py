@@ -22,7 +22,7 @@ BASE_URL = "https://api.massive.com"
 
 # Default Massive API key so the app runs out of the box.
 
-DEFAULT_API_KEY = "lqxOOJppGZJtPmRKJBF7awXkJp5RVuzv"
+DEFAULT_API_KEY = st.secrets["stockKey"]
 
 # Preset look-back windows -> number of calendar days back from today.
 
