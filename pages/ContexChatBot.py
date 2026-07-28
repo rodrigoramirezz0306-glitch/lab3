@@ -113,7 +113,7 @@ for message in st.session_state.context_chat_history:
             
 
 # Gemini API key string goes here
-key = "AQ.Ab8RN6Lhbj4SSGtuz09gnX_8KGwcn5ocp518v-a4wdaq569smA"
+key = "keyContext"
 
 # Initialize client.
 client = genai.Client(api_key=key)
