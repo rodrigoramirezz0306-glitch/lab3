@@ -8,7 +8,7 @@ st.title("Web Development Lab03")
 
 st.header("CS 1301")
 st.subheader("Team Goats, Web Development - Section A")
-st.subheader(", Rodrigo Ramirez")
+st.subheader("Nayan Bhogaraju, Rodrigo Ramirez")
 
 
 # Introduction
