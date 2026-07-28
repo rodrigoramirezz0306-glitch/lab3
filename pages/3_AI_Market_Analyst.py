@@ -18,7 +18,7 @@ import plotly.graph_objects as go
 
 # ===== settings =====
 BASE_URL = "https://api.massive.com"
-MASSIVE_API_KEY = "lqxOOJppGZJtPmRKJBF7awXkJp5RVuzv"   # same key from page 1
+MASSIVE_API_KEY = st.secrets["stockKey"]   # same key from page 1
 
 # Gemini key (same one from page 2). Hardcoded so nothing shows up in the app.
 GEMINI_API_KEY = "AQ.Ab8RN6JJyVKaJXyfibjk4Ew1bvslqk3HnViZAOJq4cKw2G1GyA"
