@@ -21,7 +21,7 @@ BASE_URL = "https://api.massive.com"
 MASSIVE_API_KEY = st.secrets["stockKey"]   # same key from page 1
 
 # Gemini key (same one from page 2). Hardcoded so nothing shows up in the app.
-GEMINI_API_KEY = "AQ.Ab8RN6JJyVKaJXyfibjk4Ew1bvslqk3HnViZAOJq4cKw2G1GyA"
+GEMINI_API_KEY = st.secrets["keyChatBox"]
 GEMINI_MODEL = "gemini-3.5-flash"
 
 POPULAR_TICKERS = ["AAPL", "MSFT", "GOOGL", "AMZN", "TSLA", "NVDA", "META"]
