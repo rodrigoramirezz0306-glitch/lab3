@@ -21,7 +21,7 @@ for message in st.session_state.chat_history:
 
 
 #API key string goes here; remember to hide it once we upload it to streamlit
-key = "AQ.Ab8RN6JJyVKaJXyfibjk4Ew1bvslqk3HnViZAOJq4cKw2G1GyA"
+key = st.secrets["AQ.Ab8RN6JJyVKaJXyfibjk4Ew1bvslqk3HnViZAOJq4cKw2G1GyA"]
 
 # Initialize client. 
 client = genai.Client(api_key=key)
