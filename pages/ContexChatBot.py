@@ -17,7 +17,7 @@ st.title("Stock Chat Bot")
 BASE_URL = "https://api.massive.com"
 
 # API Key
-DEFAULT_API_KEY = "lqxOOJppGZJtPmRKJBF7awXkJp5RVuzv"
+DEFAULT_API_KEY = st.secrets["stockKey"]
 
 # Data access 
 @st.cache_data(ttl=600, show_spinner=False)
